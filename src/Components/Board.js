@@ -50,7 +50,7 @@ class Board extends React.Component {
     if (winner) {
       status = 'Winner: ' + winner
     } else if (this.state.turns === 9 && winner == null) {
-      status = 'Your both worthy apponents!'
+      status = 'Your both worthy opponents!'
     } else {
       status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O')
     }
