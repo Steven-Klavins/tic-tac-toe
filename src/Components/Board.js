@@ -8,13 +8,18 @@ class Board extends React.Component {
     this.state = {
       squares: Array(9).fill(null),
       xIsNext: true,
+      turns: 0,
     }
   }
 
   handleClick(i) {
     const squares = this.state.squares.slice()
     squares[i] = this.state.xIsNext ? 'X' : 'O'
-    this.setState({ squares: squares, xIsNext: !this.state.xIsNext })
+    this.setState({
+      squares: squares,
+      xIsNext: !this.state.xIsNext,
+      turns: this.state.turns + 1,
+    })
   }
 
   renderSquare(i) {
@@ -32,6 +37,8 @@ class Board extends React.Component {
 
     if (winner) {
       status = 'Winner: ' + winner
+    } else if (this.state.turns === 9 && winner == null) {
+      status = 'Your both worthy apponents!'
     } else {
       status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O')
     }
