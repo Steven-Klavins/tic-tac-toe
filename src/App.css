@@ -1,3 +1,15 @@
 .App {
   text-align: center;
 }
+
+@font-face {
+  font-family: mainFont;
+  src: url(./Fonts/Font-Face.otf);
+}
+* {
+  font-family: mainFont;
+}
+
+h1 {
+  font-size: 60px;
+}
