@@ -1,7 +1,10 @@
+.board-row {
+  width: 408px;
+  margin: auto;
+}
 .board-row:after {
   clear: both;
   content: '';
-  display: table;
 }
 
 .status {
