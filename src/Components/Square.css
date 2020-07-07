@@ -1,6 +1,6 @@
 .square {
-  background: #fff;
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background: transparent;
   float: left;
   font-size: 96px;
   font-weight: bold;
