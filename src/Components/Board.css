@@ -1,6 +1,9 @@
 .board-row {
   width: 408px;
   margin: auto;
+  background-image: url(../Images/paperBG.jpg);
+  height: 136px;
+  box-shadow: 2px 6px 6px 0px rgba(88, 88, 88, 0.5);
 }
 .board-row:after {
   clear: both;
