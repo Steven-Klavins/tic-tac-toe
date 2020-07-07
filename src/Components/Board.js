@@ -26,6 +26,14 @@ class Board extends React.Component {
     })
   }
 
+  hadleReset() {
+    this.setState({
+      squares: Array(9).fill(null),
+      turns: 0,
+      xIsNext: true,
+    })
+  }
+
   renderSquare(i) {
     return (
       <Square
@@ -67,6 +75,9 @@ class Board extends React.Component {
             {this.renderSquare(8)}
           </div>
         </div>
+        <button className="resetButton" onClick={() => this.hadleReset()}>
+          Reset
+        </button>
       </div>
     )
   }
