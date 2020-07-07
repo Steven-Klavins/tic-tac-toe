@@ -1,16 +1,16 @@
 .square {
   background: #fff;
-  border: 1px solid #999;
+  border: 1px solid rgb(0, 0, 0);
   float: left;
-  font-size: 24px;
+  font-size: 96px;
   font-weight: bold;
-  line-height: 34px;
-  height: 34px;
+  line-height: 136px;
+  height: 136px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 136px;
 }
 
 .square:focus {
