@@ -22,3 +22,4 @@ Each round the game checks to determine if there's a winner, in the event there 
 
 ### Future improvements
 
+In the future, I feel it would be a nice touch to perhaps animate the game with transitions, I don't think it would be too troublesome to achieve with something like Framer Motion. However, what was important to me was the game logic itself worked first. I am also tempted to convert this project to a react native application as I feel it would be fairly easy to adapt this for mobile devices.
