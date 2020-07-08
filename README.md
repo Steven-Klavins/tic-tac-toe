@@ -4,7 +4,7 @@ Tic-tac-toe, also known as noughts and crosses, or Xs and Os is a game for two p
 
 [Play the game](http://tic-tac-toe-sk.surge.sh/)
 
-[Tutorial](https://reactjs.org/docs/create-a-new-react-app.html)
+This project is an adaption of the official React [Tutorial](https://reactjs.org/docs/create-a-new-react-app.html)
 
 ## Tic Tac Toe
 
