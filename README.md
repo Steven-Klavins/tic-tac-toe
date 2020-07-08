@@ -11,3 +11,8 @@ This project is an adaption of the official React [Tutorial](https://reactjs.org
 <p align="center">
 <img src="Screenshot_TTT.png" alt="screenshot" width="600"/>
 </p>
+
+### How it works
+
+### Future improvements
+
